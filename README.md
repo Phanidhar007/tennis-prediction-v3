@@ -24,3 +24,38 @@ This system analyzes 20+ years of ATP and WTA match data to predict winners. It 
 1. Install dependencies: `pip install -r requirements.txt`
 2. Load the model logic from `tennis_model_v3.py`.
 3. Launch the UI using the code provided in the interactive cells.
+## API Usage Examples
+
+### 1. Feature Engineering
+```python
+from tennis_pro.core.features import FeatureEngine
+import pandas as pd
+
+engine = FeatureEngine()
+df = pd.read_csv('your_match_data.csv')
+processed_df = engine.apply_all(df)
+```
+
+### 2. Model Prediction
+```python
+from tennis_pro.core.model import TennisEnsemble
+
+model = TennisEnsemble()
+# After training...
+predictions = model.predict(X_input)
+```
+
+## Visual Gallery
+
+### Model Performance
+![Confusion Matrix](assets/model_performance.png)
+
+### Working Demo
+<!-- 
+To add a video: 
+1. Upload your .mp4 or .gif to the 'assets/' folder
+2. Update the link below
+-->
+![Project Demo](assets/demo.gif)
+
+*Note: Replace demo.gif with your actual recorded walkthrough of the Prediction UI.*
