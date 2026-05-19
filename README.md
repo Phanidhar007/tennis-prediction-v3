@@ -58,4 +58,4 @@ To add a video:
 -->
 ![Project Demo](assets/demo.gif)
 
-*Note: Replace demo.gif with your actual recorded walkthrough of the Prediction UI.*
+
