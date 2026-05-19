@@ -12,3 +12,7 @@ This system analyzes 20+ years of ATP and WTA match data to predict winners. It 
 
 ## Performance
 * **Final Verified Accuracy**: 95.44%
+
+## Repository Contents
+* `/data`: Processed ATP/WTA match data and 2026 simulation results.
+* `tennis_model_v3.py`: Full Ensemble V3 source code.
