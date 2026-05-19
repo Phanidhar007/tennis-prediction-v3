@@ -13,6 +13,14 @@ This system analyzes 20+ years of ATP and WTA match data to predict winners. It 
 ## Performance
 * **Final Verified Accuracy**: 95.44%
 
-## Repository Contents
-* `/data`: Processed ATP/WTA match data and 2026 simulation results.
-* `tennis_model_v3.py`: Full Ensemble V3 source code.
+
+## Professional Repository Structure
+* `/data`: Processed ATP/WTA datasets (20+ years) and simulation outputs.
+* `/examples`: Documentation for the interactive Prediction UI.
+* `tennis_model_v3.py`: Optimized Ensemble logic (XGBoost + LightGBM).
+* `requirements.txt`: Environment dependencies.
+
+## Getting Started
+1. Install dependencies: `pip install -r requirements.txt`
+2. Load the model logic from `tennis_model_v3.py`.
+3. Launch the UI using the code provided in the interactive cells.
